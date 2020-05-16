@@ -9,7 +9,7 @@
 			return e.title.$t.localeCompare(o.title.$t)
 		}) : i, toc_config.sortAlphabetically.thePanel && n.sort();
 		for (var g = 0, h = n.length; h > g; ++g) {
-			l += '<h7 class="toc-header">' + n[g] + "</h7>", l += '<div class="toc-content"><ol>';
+			l += '<h3 class="toc-header">' + n[g] + "</h3>", l += '<div class="toc-content"><ol>';
 			for (var _ = 0, p = i.length; p > _; ++_) {
 				o = i[_].title.$t;
 				for (var w = 0, u = i[_].link.length; u > w; ++w)
